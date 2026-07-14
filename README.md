@@ -40,7 +40,3 @@ Download the latest version of Ferox OS from the [Releases](https://github.com/y
 ### 2. Create a Bootable USB Drive
 
 Use [Rufus](https://rufus.ie/) (Windows) or `dd` (Linux) to write the ISO to a USB drive.
-
-**Example for Linux:**
-```bash
-sudo dd if=ferox-os-1.0-desktop-amd64.iso of=/dev/sdX bs=4M status=progress
